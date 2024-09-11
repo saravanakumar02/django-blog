@@ -1,5 +1,6 @@
 from about.models import SocialLink
 from blogs.models import Category
+from django.contrib.auth.models import User
 
 
 def get_categories(request):
